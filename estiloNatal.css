@@ -5,6 +5,14 @@ body{
 
 h1{
   text-align: center;
+  animation-name: mudacor;
+  animation-duration: 5s;
+  color: red;
+}
+
+@keyframes mudacor {
+  from {color: yellow;}
+  to {color: red;}
 }
 
 #cabecalho{
@@ -13,10 +21,8 @@ h1{
   padding-left:  50px;
   margin-bottom: 30px;
   box-shadow: black 2px 2px 5px;
-
-  
-
 }
+
  #conteudo{
    background-color: white;
    margin-left: 5%;
